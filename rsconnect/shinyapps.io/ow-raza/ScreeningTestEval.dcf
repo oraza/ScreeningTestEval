@@ -1,0 +1,9 @@
+name: ScreeningTestEval
+account: ow-raza
+server: shinyapps.io
+appId: 124951
+bundleId: 553948
+url: https://ow-raza.shinyapps.io/ScreeningTestEval/
+when: 1473518415.88946
+asMultiple: FALSE
+asStatic: FALSE
