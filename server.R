@@ -6,8 +6,8 @@ server <- function(input, output) {
   
   sensitivity.val <- function(xx){(input$TP/(input$TP+input$FN))}
   specifivity.val <- function(xy){input$TN/(input$FP+input$TN)}
-  lr.pos <- function(lrp){input$TP/(input$TP+input$FN)/(1 - input$TN/(input$FP+input$TN))}
-  lr.neg <- function(lrn){input$TN/(input$FP+input$TN)/(1 - input$TP/(input$TP+input$FN))}
+  lr.pos <- function(lrp){(input$TP/(input$TP+input$FN))/(1 - (input$TN/(input$FP+input$TN)))}
+  lr.neg <- function(lrn){(1-(input$TP/(input$TP+input$FN)))/(input$TN/(input$FP+input$TN))}
   ppv.val <- function(aa){input$TP/(input$TP+input$FP)}
   npv.val <- function(ab){input$TN/(input$TN+input$FN)}
 
