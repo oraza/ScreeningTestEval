@@ -50,7 +50,7 @@ shinyUI(fluidPage(
                  br(),
                  br(),
                  h4("Introduction",  align = "left", style = "font-family: 'times'; color:blue"),
-                 p("This web-based app helps you to evaluate screening tool by calculating various diagnostic effeciency statistics.", style = "font-family: 'times'"),
+                 p("This web-based app helps you to evaluate screening tool by calculating various diagnostic efficiency statistics.", style = "font-family: 'times'"),
                  p("The four cells (a, b, c, d) capture the four possible relationships between the results of a screening test
 and a gold standard diagnosis.",
                    style = "font-family: 'times'"),
