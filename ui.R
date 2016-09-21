@@ -46,7 +46,9 @@ shinyUI(fluidPage(
                      target="_blank"),"MBBS, Ph.D. candidate (Epidemiology)",br(),
                    'Dept. of Epidemiology & Biostatistics,',br(),
                    'Tehran University of Medical Sciences - International campus,',br(),
-                   'Tehran, Iran.', style = "font-family: 'times'")),
+                   'Tehran, Iran.', style = "font-family: 'times'")
+                 
+                 ),
     mainPanel(
       tabsetPanel(
         tabPanel("Important note",
@@ -68,7 +70,23 @@ shinyUI(fluidPage(
                            style = "font-family: 'times'"),
                    tags$li("True negative (cell d): when the person scores negative on the screening test and does not in fact have the condition.",
                            style = "font-family: 'times'")
-                 )),
+                 ),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 br(),
+                 p("Source codes are available",
+                   style = "font-family: 'times'",
+                   a("here.", href = "https://github.com/oraza/ScreeningTestEval",
+                     target = "_blank", style = "font-family: 'times'"))
+                 ),
         tabPanel("Sensitivity",
                  br(),
                  h5('Point estimate', style = "font-family: 'times'; color: blue"),

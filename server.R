@@ -99,7 +99,7 @@ server <- function(input, output) {
     #SE:
     n <- input$TP + input$FP + input$FN + input$TN
     p <- (input$TP + input$TN)/n
-    acc.se <- sqrt((p * (1 - p))/n)
+    acc.se <- sqrt((p * (1 - p))/n) 
     #95% ci:
     p - (1.96 * acc.se)
   }
